@@ -1,0 +1,23 @@
+/* Inicio estilos pagina Contacto */
+
+.contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.mapa_contacto {
+    padding-right: 30px;
+}
+
+.mapa_contacto iframe {
+    border-radius: 30px;
+}
+
+.texto_contacto h1 {
+    padding-bottom: 15px;
+
+}

@@ -1,0 +1,29 @@
+/*inicio estilos footer*/
+footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.rrss {
+    margin-bottom: 15px;
+}
+
+
+.rrss a {
+    padding: 0 25px;
+    color: white;
+    font-size: 30px;
+}
+
+.rrss i:hover {
+    transition: 1s;
+    transform: rotate(360deg);
+
+}
+
+
+
+/* fin estilos footer*/

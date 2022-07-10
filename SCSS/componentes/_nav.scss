@@ -1,0 +1,40 @@
+/*Estilos Menu de navegacion*/
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: black;
+}
+
+.logo img {
+    height: 70px;
+    margin-right: 15px;
+}
+
+.menu_items {
+    display: flex;
+    list-style: none;
+
+}
+
+.menu_items a {
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    padding-right: 20px;
+}
+
+.menu_items li:hover {
+    transform: translate(-5px, -5px);
+    transition: all 0.3s;
+}
+
+.texto_logo {
+    font-size: 30px;
+    font-weight: 700;
+}

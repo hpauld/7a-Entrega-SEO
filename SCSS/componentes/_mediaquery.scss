@@ -1,0 +1,95 @@
+/* Medias query*/
+@media screen and (max-width: 900px) {
+    header {
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+    }
+
+    .menu_items li {
+        padding: 5px;
+    }
+
+    .seccion3 p {
+        font-size: 30px;
+    }
+
+    .seccion4 {
+        font-size: 35px;
+    }
+
+    .nosotros {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .img_nosotros {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 560px) {
+
+    .menu_items {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    header {
+        padding-top: 10px;
+        align-items: flex-start;
+    }
+
+    .menu_items li {
+        padding: 5px;
+
+    }
+
+    .textos_seccion1 {
+        margin-top: 100px;
+        font-size: 25px;
+    }
+
+
+    .textoInicial {
+        font-size: 20px;
+    }
+
+    .call_btn {
+        height: 90px;
+        width: 250px;
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: 15px;
+    }
+
+    .img_nosotros {
+        width: 300px;
+    }
+
+    .servicios {
+        padding-top: 300px;
+    }
+
+    .producto {
+        flex-direction: column;
+        width: auto;
+    }
+
+    .textos_productos p {
+        width: auto;
+    }
+
+    .productos {
+        padding-top: 300px;
+    }
+
+    .contacto {
+        flex-direction: column;
+        padding-top: 300px;
+    }
+
+    .mapa_contacto iframe {
+        width: 100%;
+        justify-content: center;
+    }
+}

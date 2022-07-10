@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+@import './Variables/color';
+@import './Variables/fonts';
+
+body {
+    background: $colorFondo;
+    font-family: $fuentePrincipal;
+    width: auto;
+}
+
+@import './componentes/header';
+@import './componentes/nav';
+@import './componentes/footer';
+@import './componentes/index';
+@import './componentes/nosotros';
+@import './componentes/servicios';
+@import './componentes/productos';
+@import './componentes/contacto';
+@import './componentes/mediaquery';

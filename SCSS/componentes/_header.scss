@@ -1,0 +1,11 @@
+header {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+
+    background: linear-gradient(90deg, rgba(255, 224, 178, 1) 0%, rgba(232, 188, 151, 1) 67%);
+    justify-content: space-between;
+    z-index: 1;
+}
