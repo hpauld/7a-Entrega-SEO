@@ -6,13 +6,15 @@
 }
 @import './Variables/color';
 @import './Variables/fonts';
+@import './Variables/Mapas';
+@import './Variables/extends';
 
 body {
     background: $colorFondo;
     font-family: $fuentePrincipal;
     width: auto;
 }
-@import './componentes/Mapas';
+
 @import './componentes/header';
 @import './componentes/nav';
 @import './componentes/footer';

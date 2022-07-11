@@ -7,9 +7,7 @@
     width: 100%;
     height: 600px;
     background-image: url(../Multimedia/FondoSeccion_1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 100%;
+    @extend %Fondos;
     font-size: 30px;
     font-weight: 300;
     color: white;
@@ -74,8 +72,6 @@
     transform: scale(1.1);
 }
 
-
-
 .caja_servicios p {
     font-size: 20px;
     margin-bottom: 15px;
@@ -86,10 +82,6 @@
     font-weight: 700;
     color: grey;
 }
-
-
-
-/*fin estilos seccion2*/
 
 /*--inicio estilos seccion3--*/
 
@@ -114,9 +106,7 @@
     flex-direction: column;
     justify-content: center;
     background-image: url(../Multimedia/imagen_4.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 100%;
+    @extend %Fondos;
     font-size: 45px;
     color: white;
     align-items: center;
@@ -132,13 +122,13 @@
 .call_btn {
     height: 70px;
     width: 250px;
-    background-color:$colorPrincipal;
+    background-color: $colorPrincipal;
     border-style: map-get($botones, borde);
-    border-radius: map-get($map: $botones, $key:border-radius );
+    border-radius: map-get($map: $botones, $key:border-radius);
     font-size: 25px;
     font-weight: 700;
     letter-spacing: 10px;
-    margin-top: map-get($map: $botones, $key:mg-top );
+    margin-top: map-get($map: $botones, $key:mg-top);
     transition: all 0.3s;
 
 }
@@ -151,6 +141,3 @@ button {
     color: black;
     cursor: pointer;
 }
-
-
-/* fin estilos seccion4*/
