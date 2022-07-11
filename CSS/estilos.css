@@ -16,17 +16,12 @@ header {
   display: flex;
   height: 80px;
   align-items: center;
+  justify-content: flex-end;
   position: fixed;
   width: 100%;
   background: linear-gradient(90deg, rgb(255, 224, 178) 0%, rgb(232, 188, 151) 67%);
   justify-content: space-between;
   z-index: 1;
-}
-
-/*Estilos Menu de navegacion*/
-nav {
-  display: flex;
-  align-items: center;
 }
 
 .logo {
