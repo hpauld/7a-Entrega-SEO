@@ -12,7 +12,7 @@ body {
     font-family: $fuentePrincipal;
     width: auto;
 }
-
+@import './componentes/Mapas';
 @import './componentes/header';
 @import './componentes/nav';
 @import './componentes/footer';

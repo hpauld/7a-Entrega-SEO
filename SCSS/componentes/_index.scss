@@ -133,12 +133,12 @@
     height: 70px;
     width: 250px;
     background-color:$colorPrincipal;
-    border-style: none;
-    border-radius: 20px;
+    border-style: map-get($botones, borde);
+    border-radius: map-get($map: $botones, $key:border-radius );
     font-size: 25px;
     font-weight: 700;
     letter-spacing: 10px;
-    margin-top: 20px;
+    margin-top: map-get($map: $botones, $key:mg-top );
     transition: all 0.3s;
 
 }
