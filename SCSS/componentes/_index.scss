@@ -60,9 +60,7 @@
 
 .caja_servicios img {
     max-width: 100%;
-    width: 400px;
-    height: 200px;
-    border-radius: 15px;
+    @include imagenes(400px, 200px, 15px);
     margin-bottom: 20px;
     object-fit: cover;
     transition: all 0.3s;
